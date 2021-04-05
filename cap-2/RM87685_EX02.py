@@ -10,6 +10,7 @@ def caculateAndPrintBonusPayment(signatureType, annualBilling):
     else:
         return
 
+
 print("\n***** Calculo de Bônus Por assinatura *****\n")
 print("\n*Para números com casas decimais use '.' ao invés de ','\n")
 signatureType = input("Tipo de assinatura: ")
