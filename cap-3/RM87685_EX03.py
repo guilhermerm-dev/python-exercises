@@ -4,11 +4,9 @@ import sys
 def fibonacci(number):
     numberOne = 0
     numberTwo = 1
-    for i in range(sys.maxsize):
+    for i in range(number + 1):
         if(number == numberTwo):
             return bool(True)
-        elif(numberTwo > number):
-            return bool(False)
         num = numberTwo + numberOne
         numberOne = numberTwo
         numberTwo = num
